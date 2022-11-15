@@ -1,0 +1,31 @@
+.form-label {
+  padding: 11px;
+  margin: 10px;
+  font-family: 'calibri';
+  color: black;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.persona {
+  background-image: url('./Imagenes/fondo-removebg-preview.png');
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+}
+
+.form-control {
+  width: 50%;
+  height: auto;
+}
+
+.btn_registrar {
+  background: #2CCAAE;
+  width: auto;
+  border: #2CCAAE;
+  margin: 10px;
+  left: 100%;
+  color: white;
+}

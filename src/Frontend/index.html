@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cliente.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Registro de Usuario</title>
+  </head>
+  <body style="overflow: hidden;">
+    <nav class="navbar navbar-expand-lg navbar-light style="width:85; height:70px;"">
+      <div class="container-fluid">
+        <img src="Imagenes/logo.jpg-removebg-preview.png" alt="" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar align-items-right d-flex justify-content-around p-2 w-54" id="navbarSupportedContent">
+          <div class="items">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Inicio de Sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+    style="background-image: url('./Imagenes/fondo_dueño.jpg');height: 700px; background-size: cover; background-repeat: no-repeat;">
+    <div class="container rounded mx-auto d-block" style=" position:absolute;">
+      
+      <h1 style="font-size: 25px; position:relative; left:-500px; color:black; margin-bottom:20px;">Registrate</h1>
+    <form class="needs-validation" novalidate>
+      <div class="col-md-4"style="margin-bottom:10px;">
+        <input type="text" placeholder="Cedula" class="form-control" id="txtCedula" required>
+        <div class="invalid-feedback">
+          Este campo es requerido!
+        </div>
+      </div>
+      <div class="col-md-4"style="margin-bottom:10px;">
+        <input type="text" placeholder="Nombre"class="form-control" id="txtNombre" required>
+        <div class="invalid-feedback">
+          Este campo es requerido!
+        </div>
+      </div>
+      <div class="col-md-4"style="margin-bottom:10px;">
+        <input type="text" placeholder="Apellido" class="form-control" id="txtApellido"  required>
+        <div class="invalid-feedback">
+          Este campo es requerido!
+        </div>
+      </div>
+      <div class="col-md-4"style="margin-bottom:10px;">
+        <input type="text" placeholder="Telefono" class="form-control" id="txtTelefono" required>
+        <div class="invalid-feedback">
+          Este campo es requerido!
+        </div>
+      </div>
+      <div class="col-md-4"style="margin-bottom:10px;">
+        <div class="input-group has-validation">
+          <input type="text" placeholder="Correo" class="form-control" id="txtCorreo" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Este campo es requerido!
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" placeholder="Confirmar"id="txtRol" required>
+        <div class="invalid-feedback">
+          Este campo es requerido!
+        </div>
+       <br>
+       <div class=" col-12" style="">
+        <button class="btn_registrar"
+          style="position: relative;left: -35%; margin:-1px; border-radius: 4px; font-size:1.1rem; font-family:Lucida Sans;"
+          type="submit">Registrarse
+      </div>
+    </form>
+  </div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script type="text/javascript" src="recursos/funciones.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

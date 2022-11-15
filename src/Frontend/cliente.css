@@ -1,0 +1,15 @@
+.btn_registrar {
+  background: #2CCAAE;
+  width: auto;
+  border: #2CCAAE;
+  margin: 10px;
+  left: 100%;
+  color: white;
+}
+
+.container1 {
+  background-image: url(./Imagenes/fondo_dueño.jpeg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
