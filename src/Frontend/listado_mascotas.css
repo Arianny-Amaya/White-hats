@@ -1,0 +1,6 @@
+/*Barra vertical para tabla*/
+.table-responsive {
+  height:400px;
+  overflow:scroll;
+}
+
